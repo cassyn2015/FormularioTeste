@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 2;
+	font-family: helvetica, arial;	
+	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
+}
+header{
+	width: 70%;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+        	
+}
+.topo{
+	display: center;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: Calibri;	
+}
+main{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-style: italic;
+        border: 1px
+}
+.cadastro{	
+	background-color: #ccc;
+	width: 70%;
+	height: 610px;
+	border-radius: 50px;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+
+}
+.cadastro input{
+	width: 350px;
+	height: 30px;
+	border-radius: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+	padding-left: 10px;
+	margin-bottom: 10px;
+
+}
+.cadastro-int{
+	display: flex;
+        */border: 1px solid #fff;*/
+	width: 70%;
+	margin-top: 20px;
+        margin-left: 10px;
+        padding: 25px;
+}
+.logo{
+	width: 100%;
+	height: 200px;
+	display: flex;	
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.logo img{
+	width: 350px;
+	height: 200px;
+}
+.botoes{
+	display: flex;
+	justify-content: space-between;
+}
+.botoes input{
+	width: 170px;
+	height: 30px;
+	background-image: linear-gradient(-50deg, #2af977,#1cabd5);
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	cursor: pointer;		
+}
